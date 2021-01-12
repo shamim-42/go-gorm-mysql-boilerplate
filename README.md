@@ -1,5 +1,10 @@
 # Go GORM (object relational mapper for Golang) and Mysql boilerplate
 
+## How to start
+1. Clone the repository in your local pc
+2. create a mysql database named `go_gorm_mysql`
+3. Run `go run main.go` in the project root
+4. Now test the apis by Postman or anyother API testing tool.
 ### Demo `.env`
 ```
 # # Postgres Live
@@ -39,8 +44,3 @@ TestDbName=go_gorm_mysql
 TestDbPort=3306
 ```
 
-### How to start
-1. Clone the repository in your local pc
-2. create a mysql database named `go_gorm_mysql`
-3. Run `go run main.go` in the project root
-4. Now test the apis by Postman or anyother API testing tool.
